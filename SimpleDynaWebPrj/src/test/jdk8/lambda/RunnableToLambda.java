@@ -7,14 +7,15 @@ public class RunnableToLambda {
 		
 		// Using anonymous innerclass
 
-		Runnable race1 = new Runnable() {
-			public void run() {
-				System.out.println("Hello world !");
-			}
-		};
+        Runnable race1 = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Hello world !..via anonymous inner class");
+            }
+        };
 
-		
-		new Thread(race1).start();
+
+        new Thread(race1).start();
 	}
 
 }
