@@ -15,7 +15,7 @@ public class SwitchEg {
 		case 2:System.out.println("Case 2");
 		case 0:System.out.println("Case 0");
 		default:System.out.println("Case default");
-		case 4:System.out.println("Case 4");
+		case 4:System.out.println("Case 4 - w10");
 		}
 		
 	}
