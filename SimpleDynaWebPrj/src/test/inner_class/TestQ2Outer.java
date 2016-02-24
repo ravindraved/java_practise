@@ -7,7 +7,7 @@ public class TestQ2Outer {
 	}
 	public static class TestQ2Inner {
 		public static void showInnerOutput(){
-			System.out.println("Outer.Inner.showInnerOutput");
+			System.out.println("Outer.Inner.showInnerOutput.. edit on w10");
 			
 		}
 		public void showMoreInnerOutput() {
