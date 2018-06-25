@@ -1,0 +1,67 @@
+~*.*c
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+.project
+.classpath
+.tern-project
+.pmd
+
+# Temp and Backup Files #
+###################
+*.bak
+~.*
+*.tmp
+*.temp
+
+# Folders #
+###########
+out
+bin
+classes
+class
+target
+.settings
+logs
+.metadata
+RemoteSystemsTempFiles
+.recommenders
+Servers
+.sonarlint
+.idea
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases #
+######################
+*.log
+*.log.lck
+*.log.*.lck
+*.log.*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Spotlight*
+.Trashes
+ehthumbs.db
+Thumbs.db
